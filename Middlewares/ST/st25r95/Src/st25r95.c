@@ -116,7 +116,7 @@ void st25r95UART_nIRQ_IN_Pulse(void)
     
     /* Start up sequence */
     platformDelay(1); /* wait t0 */
-    /* Send null char to have nIRQ_IN/UART_TX low for more than 10µs (t1) */
+    /* Send null char to have nIRQ_IN/UART_TX low for more than 10ï¿½s (t1) */
     platformUartTx(st25r95UartnIRQINPulse, 1);
     platformDelay(11); /* wait t3: seems more than 10ms needed */
 }

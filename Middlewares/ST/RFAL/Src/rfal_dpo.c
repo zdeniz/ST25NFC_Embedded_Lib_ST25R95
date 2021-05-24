@@ -39,7 +39,7 @@
  * INCLUDES
  ******************************************************************************
  */
-#include "rfal_dpoTbl.h"
+// #include "rfal_dpoTbl.h"
 #include "rfal_dpo.h"
 #include "platform.h"
 #include "rfal_rf.h"
